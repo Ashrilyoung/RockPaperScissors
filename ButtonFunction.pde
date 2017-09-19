@@ -35,4 +35,6 @@ void mouseClicked(){
      background(200, 10, 10);
      maxnumber += 3;
      result();
-     }}
+     }
+   
+ }

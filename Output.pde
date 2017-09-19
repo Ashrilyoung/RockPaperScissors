@@ -7,15 +7,15 @@ int r = int(random(1,4));                   //generates a random number from 1 t
 
 
  if(r == 1) {                             //if random number is 1 display Rock on screen
-    text("Rock", 400, 200);
+    text("Rock", 400, 240);
   }
   
   else if(r == 2) {                           //if random number is 2 display Paper on screen
-    text("Paper", 400, 200);
+    text("Paper", 400, 240);
   }
   
   else if(r == 3) {                          //if random number is 3 display Scissors on screen   
-    text("Scissors", 400, 200);
+    text("Scissors", 400, 240);
   }
 
 
