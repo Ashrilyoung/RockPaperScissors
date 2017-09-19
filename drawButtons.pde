@@ -1,10 +1,7 @@
 //this draws things to the screen
 
 void draw() {
-  
-
-  
-
+ 
  fill(255);
  rect(x,y,w,h);
  fill(255); 
