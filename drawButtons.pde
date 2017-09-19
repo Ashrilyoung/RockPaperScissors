@@ -1,3 +1,5 @@
+//this draws things to the screen
+
 void draw() {
   
 
