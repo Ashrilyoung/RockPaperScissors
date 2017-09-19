@@ -1,27 +1,20 @@
 void draw() {
   
-  int x = 100;
-  int y = 100;
-  int z = 150;
-  int h = 50;
+
   
 
  fill(255);
- rect(x,y,z,h);
- fill(255);
- if(mousePressed){
- }  
+ rect(x,y,w,h);
+ fill(255); 
  
  
- rect(x,y + 100,z,h);
+ rect(x,y + 100,w,h);
  fill(255);
- if(mousePressed){
- } 
+
  
- rect(x,y + 200,z,h);
+ rect(x,y + 200,w,h);
  fill(255);
- if(mousePressed){
- } 
+
  
  fill(0);
   text("Rock", x + 30, y+30);
