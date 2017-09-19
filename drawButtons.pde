@@ -2,21 +2,21 @@
 
 void draw() {
  
- fill(255);
- rect(x,y,w,h);
- fill(255); 
+ fill(255);                      //colour of rectangles
+ rect(x,y,w,h);         //dimensions and location of rectangle
+         
  
  
- rect(x,y + 100,w,h);
- fill(255);
-
- 
- rect(x,y + 200,w,h);
+ rect(x,y + 100,w,h);     //dimensions and location of rectangle
  fill(255);
 
  
- fill(0);
-  text("Rock", x + 30, y+30);
+ rect(x,y + 200,w,h);                   //dimensions and location of rectangle
+ fill(255);
+
+ 
+ fill(0);                                       //colour of text
+  text("Rock", x + 30, y+30);                    
   text("Paper", x + 30, y+130);
   text("Scissors", x + 30, y+230);
   text("Play Rock, Paper Scissors!", 20, 30);  
