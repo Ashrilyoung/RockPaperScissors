@@ -9,6 +9,6 @@ String maxnumber = "";      //starts a string to store the users choice
 
 void setup() {                                    //sets up the program
   size(600,600);                                  //size of program
-  background(200, 10, 10);                        //background colour
+  background(51, 204, 204);                        //background colour
   textSize(30);         //textsize 30
 }

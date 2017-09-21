@@ -9,7 +9,7 @@ void mouseClicked(){
      (mouseY > y-h/2 && mouseY < y+h/2)){                 //mouse is in the button vertically
     maxnumber="";                                   //clears the string
     clear();                                        //clears the page to get rid of previous results
-    background(200, 10, 10);                              //colours background againn
+    background(51, 204, 204);                              //colours background againn
     maxnumber += "Rock";                                       //sets max number to 1
     result();                                             //calls results function
   
@@ -21,7 +21,7 @@ void mouseClicked(){
      (mouseY > y-h/2+100 && mouseY < y+h/2+100)){                //mouse is in the button vertically
      maxnumber="";  
      clear();
-     background(200, 10, 10);
+     background(51, 204, 204);
      maxnumber += "Paper";
      result();
  
@@ -32,7 +32,7 @@ void mouseClicked(){
      (mouseY > y-h/2+200 && mouseY < y+h/2+200)){                  //mouse is in the button vertically
      maxnumber="";  
      clear();
-     background(200, 10, 10);
+     background(51, 204, 204);
      maxnumber += "Scissors";
      result();
      }

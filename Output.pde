@@ -9,7 +9,7 @@ println (computerchoice[random]);
 
 
                          
-text (computerchoice[random], 350, 130);
+text (computerchoice[random], 350, 130);           //displays the random option the computer has chosen to the screen.
 
                            
   userchoice = (maxnumber) ;                      //sets a variable to the users choice
