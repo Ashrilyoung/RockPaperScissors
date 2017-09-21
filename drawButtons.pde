@@ -21,5 +21,7 @@ void draw() {
   text("Paper", x + 30, y+130);
   text("Scissors", x + 30, y+230);
   text("Play Rock, Paper Scissors!", 20, 30);  
-  text("Computers Choice:", 320, 200);
+  text("Computers Choice:", 320, 90);
+  text("Users Choice:", 100, 90);
+  text("Result:", 320, 250);
 }

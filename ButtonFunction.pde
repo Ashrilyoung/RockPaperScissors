@@ -10,7 +10,7 @@ void mouseClicked(){
     maxnumber="";                                   //clears the string
     clear();                                        //clears the page to get rid of previous results
     background(200, 10, 10);                              //colours background againn
-    maxnumber += 1;                                       //sets max number to 1
+    maxnumber += "Rock";                                       //sets max number to 1
     result();                                             //calls results function
   
    
@@ -22,7 +22,7 @@ void mouseClicked(){
      maxnumber="";  
      clear();
      background(200, 10, 10);
-     maxnumber += 2;
+     maxnumber += "Paper";
      result();
  
      }
@@ -33,7 +33,7 @@ void mouseClicked(){
      maxnumber="";  
      clear();
      background(200, 10, 10);
-     maxnumber += 3;
+     maxnumber += "Scissors";
      result();
      }
    
